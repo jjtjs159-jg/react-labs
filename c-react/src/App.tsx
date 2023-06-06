@@ -1,4 +1,4 @@
-import React from 'react';
+import { Link  } from 'react-router-dom'
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <Link to="/part1">Part1</Link>
       </header>
     </div>
   );
