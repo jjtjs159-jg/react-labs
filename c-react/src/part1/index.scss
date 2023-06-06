@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+  background-color: #9BABB8;
+}
+
+.button {
+  padding: 8px 12px;
+
+  &:not(:last-child) {
+    margin-right: 16px;
+  }
+}
+
+.description {
+  margin-top: 4rem;
+
+  & > h2 {
+    color: #116A7B;
+  }
+
+  p {
+    color: #213555;
+  }
+}

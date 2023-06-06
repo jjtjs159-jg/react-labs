@@ -18,7 +18,7 @@ function App() {
         >
           Learn React
         </a>
-        <Link to="/part1">Part1</Link>
+        <Link to="/part1">useEffect</Link>
       </header>
     </div>
   );
