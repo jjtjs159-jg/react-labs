@@ -23,7 +23,17 @@
     color: #116A7B;
   }
 
-  p {
+  & > h3 {
     color: #213555;
   }
+
+  p {
+    color: #000000;
+  }
+}
+
+.notice {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: right;
 }
